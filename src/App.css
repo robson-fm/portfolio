@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Inter:wght@300&display=swap');
+.centralizar{
+  display: flex;
+  justify-content: center;
+}
+
+
+body {
+  background: linear-gradient(236.85deg, #beb6c4 27.26%, #3468A7 96.03%);
+  font-family: 'East Sea Dokdo', cursive;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+.dark  {
+  background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1C1C1C;
+  border: 1.8px solid #1C1C1C;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ECF4FF;
+}
+
+::-webkit-scrollbar-track {
+  background: #ECF4FF;
+  border-radius: 100px;
+  box-shadow: inset 0px 0px 0px 0px #F0F0F0;
+  margin: 15px 0px;
+}
+
+

@@ -1,0 +1,156 @@
+header {
+  margin-top: 20px;
+  background: #ECF4FF;
+  color: #1C1C1C;
+  border-radius: 460px;
+  padding: 0;
+  width: 900px;
+  box-shadow: 7px 10px 7px rgba(0, 0, 0, 0.9);
+
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  max-width: 160px;
+  border-radius: 50%;
+  box-shadow: 7px 4px 7px rgba(0, 0, 0, 0.7);
+  object-fit: cover;
+}
+
+nav {
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  margin-top: 100px;
+  font-size: 30px;
+
+}
+
+.link-topo {
+  border-right: 1px solid black;
+  padding-right: 8px;
+  color: black;
+}
+
+
+.link-topo:hover {
+  text-decoration: underline;
+
+}
+
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 46px;
+  padding: 0;
+  margin: 10px;
+}
+
+.titulo h3 {
+  font-weight: normal;
+  font-size: 34px;
+  padding: 0;
+  margin: 0;
+}
+
+#rede-social li {
+
+  display: inline;
+  margin: 10px;
+
+}
+
+.img-rede {
+  margin: 0;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+
+}
+
+.img-link {
+  max-height: 150px;
+  border-radius: 50px;
+  background-size: 50%;
+}
+
+.tema button {
+  cursor: pointer;
+  align-self: flex-end;
+  font-size: 26px;
+  padding: 8px 16px;
+  background: #ECF4FF;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #0E1D2F;
+  font-family: 'East Sea Dokdo', cursive;
+  box-shadow: 7px 4px 7px rgba(0, 0, 0, 0.7);
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+
+@media screen and (max-width: 435px) {
+
+  header {
+  height: 60%;
+
+}
+
+  .perfil-foto {
+   margin-top: 10px;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+    
+    
+  }
+
+  .titulo h1 {
+    font-size: 25px;
+    line-height: 18px;
+
+  }
+
+  .titulo h3 {
+    line-height: 18px;
+
+  }
+
+  #rede-social {
+    margin-right: 15px;
+    padding-left: 5px;
+
+  }
+
+  .img-rede {
+    width: 25px;
+    height: 25px;
+  }
+
+  button{
+    line-height: 18px;
+  }
+
+
+
+
+
+
+}

@@ -1,0 +1,28 @@
+.container-cv{
+  display: flex;
+  justify-content: center;
+  margin: 64px;
+  background: #ECF4FF;
+  border-radius: 20px;
+  padding: 34px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+.centralizar-cv{
+  display: flex;
+  justify-content: center;
+}
+
+span{
+  font-size: 22px;
+}
+
+.CV {
+  max-height: 500px;
+  display: flex;
+  justify-content: center;
+  padding: 8px 32px;
+  background: linear-gradient(230.65deg, #c2eff5 27.49%, #9CC8FC 83.19%);
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}

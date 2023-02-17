@@ -1,0 +1,58 @@
+
+.dark  {
+    background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+  }
+
+  .dark .link-topo {
+    border-right: 1px solid white;
+    padding-right: 2px;
+  }
+
+  .dark .link-topo {
+    border-right: 1px solid white;
+    padding-right: 8px;
+    color:white;
+  }
+  
+  .dark  .container {
+    background: #333439;
+    color: #F6F6F6;
+  }
+
+  .dark .portfolio {
+    color: #1C1C1C;
+  }
+
+  .dark .container-cv {
+    background: #333439;
+    color: #F6F6F6;
+  }
+
+  .dark .portfolio {
+    color: #1C1C1C;
+  }
+
+  .dark .projetos{
+    background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+    color: #F6F6F6;
+  }
+  .dark .playlist{
+    background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+    color: #F6F6F6;
+  }
+
+  .dark .tema button {
+    color: #FFFFFF;
+    background: #1C1C1C;
+    box-sizing: border-box;
+    border-radius: 100px;
+    border: 2px solid #F7F7F7;
+  }
+  
+  .dark header{
+    background: #333439;
+    color: #F6F6F6;
+  }
+
+
+  
